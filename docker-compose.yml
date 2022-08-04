@@ -40,7 +40,7 @@ services:
       - laravel
 
   php:
-    image: vincesimeone/vincesimeone/php-composer
+    image: vincesimeone/php-composer
     volumes:
       - ./src:/var/www/html
       - ./php/config/php.ini:/usr/local/etc/php/php.ini
